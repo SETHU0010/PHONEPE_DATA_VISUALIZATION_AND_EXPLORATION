@@ -1,3 +1,7 @@
+# If you haven't done so already, update the requirements.txt file
+nano requirements.txt
+
+# Paste the updated dependencies list
 altair==5.3.0
 attrs==23.2.0
 blinker==1.8.2
@@ -50,3 +54,10 @@ tzdata==2024.1
 urllib3==2.2.1
 watchdog==4.0.1
 zipp==3.19.2
+
+# Save and exit (Ctrl+X, Y, Enter)
+
+# Commit the changes
+git add requirements.txt
+git commit -m "Update numpy version to be compatible with Python 3.11"
+git push origin main
